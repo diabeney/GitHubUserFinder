@@ -1,0 +1,45 @@
+:root {
+  --clr-primary: rgb(238, 0, 99);
+  --clr-accent: hsl(224, 8.4%, 27.5%);
+  --clr-secondary-light: hsla(223, 32.3%, 12.7%, 0.4);
+  --clr-secondary: hsl(224, 38.4%, 7.5%);
+
+  --size-sm: 0.4rem;
+  --size-md: 1rem;
+  --size-lg: 1.2rem;
+  --size-xlg: 1.5rem;
+  --size-xxl: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: var(--clr-secondary);
+  color: #fff;
+}
+
+input,
+select {
+  font-family: inherit;
+}
+
+p {
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.5;
+}
